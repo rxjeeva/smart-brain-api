@@ -16,7 +16,9 @@ const db = knex({
     host: process.env.DATABASE_URL,
     ssl: {
       rejectUnauthorized: false
-    }
+    },
+    user: 'unazligmwxfknc',
+    Password: '7ac0bfbffa173f6bcd04c3ca9b6d3a2cf225161ba2702fc63e363bf7f1abc13'
   }
 });
 
