@@ -15,6 +15,9 @@ const db = knex({
     ssl: {
       rejectUnauthorized: false,
     },
+    database: 'd3ta4o8aljq9e5',
+    user: 'unazligmwxfknc',
+    password: '87ac0bfbffa173f6bcd04c3ca9b6d3a2cf225161ba2702fc63e363bf7f1abc13',
   }
 });
 
